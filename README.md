@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # toonflix
 
 A new Flutter project.
@@ -17,4 +16,3 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 =======
 # toonflix
->>>>>>> 71771945e61b6f946d1743cd16acd99d9beb321a
