@@ -17,6 +17,7 @@ class ToonflixApp extends StatelessWidget {
         body: Padding(
           padding: EdgeInsets.symmetric(horizontal: 40),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(
                 height: 80,
@@ -43,6 +44,45 @@ class ToonflixApp extends StatelessWidget {
                       )
                     ],
                   )
+                ],
+              ),
+              const SizedBox(
+                height: 120,
+              ),
+              Text(
+                'Total Balance',
+                style: TextStyle(
+                    fontSize: 22, color: Colors.white.withOpacity(0.8)),
+              ),
+              const SizedBox(
+                height: 5,
+              ),
+              Text(
+                '\$5 194 482',
+                style: TextStyle(
+                    fontSize: 44,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white),
+              ),
+              const SizedBox(
+                height: 30,
+              ),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                        color: Colors.amber,
+                        borderRadius: BorderRadius.circular(45)),
+                    child: Padding(
+                        padding:
+                            EdgeInsets.symmetric(vertical: 20, horizontal: 50),
+                        child: Text(
+                          'Transfer',
+                          style: TextStyle(
+                            fontSize: 22,
+                          ),
+                        )),
+                  ),
                 ],
               )
             ],
